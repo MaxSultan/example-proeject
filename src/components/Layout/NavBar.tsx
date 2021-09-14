@@ -43,7 +43,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-export default function NavBar() {
+const NavBar: React.FC = () => {
   return (
     <header>
       <Popover className="relative bg-white">
@@ -252,4 +252,6 @@ export default function NavBar() {
       </Popover>
     </header>
   );
-}
+};
+
+export default NavBar;

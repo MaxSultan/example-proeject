@@ -6,7 +6,7 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
-const Layout = ({ metadata, children }: LayoutProps) => (
+const Layout: React.FC = ({ metadata, children }: LayoutProps) => (
   <>
     <MetaData {...metadata} />
     <header></header>

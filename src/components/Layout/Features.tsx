@@ -10,7 +10,7 @@ import {
   UsersIcon,
 } from '@heroicons/react/outline';
 
-export default function Features() {
+const Features: React.FC = () => {
   const features = [
     {
       name: 'Unlimited Inboxes',
@@ -97,4 +97,6 @@ export default function Features() {
       </div>
     </div>
   );
-}
+};
+
+export default Features;

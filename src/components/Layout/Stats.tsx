@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Stats() {
+const Stats: React.FC = () => {
   const metrics = [
     {
       id: 1,
@@ -80,4 +80,6 @@ export default function Stats() {
       </div>
     </div>
   );
-}
+};
+
+export default Stats;

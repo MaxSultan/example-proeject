@@ -1,7 +1,7 @@
 import React from 'react';
 import { InboxIcon, SparklesIcon } from '@heroicons/react/outline';
 
-export default function AlternatingFeatureSection() {
+const AlternatingFeature: React.FC = () => {
   return (
     <div className="relative pt-16 pb-32 overflow-hidden">
       <div
@@ -123,4 +123,6 @@ export default function AlternatingFeatureSection() {
       </div>
     </div>
   );
-}
+};
+
+export default AlternatingFeature;

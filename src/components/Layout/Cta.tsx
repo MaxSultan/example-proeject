@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Contact() {
+const Cta: React.FC = () => {
   return (
     <div className="bg-white">
       <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
@@ -27,4 +27,6 @@ export default function Contact() {
       </div>
     </div>
   );
-}
+};
+
+export default Cta;

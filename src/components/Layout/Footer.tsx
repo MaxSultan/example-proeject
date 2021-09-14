@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Footer() {
+const Footer: React.FC = () => {
   const footerNavigation = {
     solutions: [
       { name: 'Marketing', href: '#' },
@@ -224,4 +224,6 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};
+
+export default Footer;
