@@ -8,3 +8,5 @@ describe('Home page', () => {
     // expect(asFragment()).toMatchSnapshot();
   });
 });
+
+export {};
